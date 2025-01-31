@@ -1,0 +1,81 @@
+/*--- Responsive Breakpoints ---*/
+
+/* 27" UHD - Larger desktop screens */
+@media only screen and (max-width: 2560px) {
+  /* Add styles for 27" Full HD screens here */
+}
+
+/* 27" FHD - Large desktop screens */
+@media only screen and (max-width: 1920px) {
+  /* Add styles for 27" Full HD screens here */
+}
+
+/* 16" MBP - Large laptops */
+@media only screen and (max-width: 1730px) {
+  /* Add styles for 16" MacBook Pro screens here */
+}
+
+/* 15" Retina - Large laptops */
+@media only screen and (max-width: 1680px) {
+  /* Add styles for 15" Retina screens here */
+}
+
+/* 13" - Medium laptops */
+@media only screen and (max-width: 1440px) {
+  /* Add styles for 13" screens here */
+}
+
+/* Normal Laptop - Common laptop resolution */
+@media only screen and (max-width: 1366px) {
+  /* Add styles for normal laptops here */
+}
+
+/* Small Laptop - Smaller laptop resolution */
+@media only screen and (max-width: 1280px) {
+  /* Add styles for small laptops here */
+}
+
+/* Large Tablet - Larger tablets in landscape mode */
+@media only screen and (max-width: 1024px) {
+  /* Add styles for large tablets here */
+}
+
+/* Medium Tablet - Medium-sized tablets */
+@media only screen and (max-width: 992px) {
+  /* Add styles for medium tablets here */
+}
+
+/* Small Tablet - Small tablets in portrait mode */
+@media only screen and (max-width: 768px) {
+  /* Add styles for small tablets here */
+}
+
+/* Mobile Landscape - Mobile devices in landscape mode */
+@media only screen and (max-width: 667px) {
+  /* Add styles for mobile landscape here */
+}
+
+/* Samsung Galaxy Note - Specific for Samsung Galaxy Note */
+@media only screen and (max-width: 480px) {
+  /* Add styles for Samsung Galaxy Note here */
+}
+
+/* iPhone Plus - Larger iPhones */
+@media only screen and (max-width: 414px) {
+  /* Add styles for iPhone Plus here */
+}
+
+/* iPhone Other - Other iPhone models */
+@media only screen and (max-width: 390px) {
+  /* Add styles for other iPhone models here */
+}
+
+/* iPhone - Standard iPhone */
+@media only screen and (max-width: 375px) {
+  /* Add styles for standard iPhone here */
+}
+
+/* Samsung Galaxy - Smaller Samsung Galaxy devices */
+@media only screen and (max-width: 360px) {
+  /* Add styles for Samsung Galaxy here */
+}
