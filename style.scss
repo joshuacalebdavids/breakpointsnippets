@@ -1,0 +1,90 @@
+/*--- Mixin for Responsive Breakpoints ---*/
+
+/* Mixin for setting breakpoints */
+@mixin breakpoint($max-width) {
+  @media only screen and (max-width: $max-width) {
+    @content;
+  }
+}
+
+/*--- Responsive Breakpoints ---*/
+
+/* 27" UHD - Larger desktop screens */
+@include breakpoint(2560px) {
+  /* Add styles for 27" Full HD screens here */
+}
+
+/* 27" FHD - Large desktop screens */
+@include breakpoint(1920px) {
+  /* Add styles for 27" Full HD screens here */
+}
+
+/* 16" MBP - Large laptops */
+@include breakpoint(1730px) {
+  /* Add styles for 16" MacBook Pro screens here */
+}
+
+/* 15" Retina - Large laptops */
+@include breakpoint(1680px) {
+  /* Add styles for 15" Retina screens here */
+}
+
+/* 13" - Medium laptops */
+@include breakpoint(1440px) {
+  /* Add styles for 13" screens here */
+}
+
+/* Normal Laptop - Common laptop resolution */
+@include breakpoint(1366px) {
+  /* Add styles for normal laptops here */
+}
+
+/* Small Laptop - Smaller laptop resolution */
+@include breakpoint(1280px) {
+  /* Add styles for small laptops here */
+}
+
+/* Large Tablet - Larger tablets in landscape mode */
+@include breakpoint(1024px) {
+  /* Add styles for large tablets here */
+}
+
+/* Medium Tablet - Medium-sized tablets */
+@include breakpoint(992px) {
+  /* Add styles for medium tablets here */
+}
+
+/* Small Tablet - Small tablets in portrait mode */
+@include breakpoint(768px) {
+  /* Add styles for small tablets here */
+}
+
+/* Mobile Landscape - Mobile devices in landscape mode */
+@include breakpoint(667px) {
+  /* Add styles for mobile landscape here */
+}
+
+/* Samsung Galaxy Note - Specific for Samsung Galaxy Note */
+@include breakpoint(480px) {
+  /* Add styles for Samsung Galaxy Note here */
+}
+
+/* iPhone Plus - Larger iPhones */
+@include breakpoint(414px) {
+  /* Add styles for iPhone Plus here */
+}
+
+/* iPhone Other - Other iPhone models */
+@include breakpoint(390px) {
+  /* Add styles for other iPhone models here */
+}
+
+/* iPhone - Standard iPhone */
+@include breakpoint(375px) {
+  /* Add styles for standard iPhone here */
+}
+
+/* Samsung Galaxy - Smaller Samsung Galaxy devices */
+@include breakpoint(360px) {
+  /* Add styles for Samsung Galaxy here */
+}
