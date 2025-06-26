@@ -42,3 +42,17 @@ Designed to simplify responsive design by offering ready-to-use breakpoints for 
     padding: 1rem;
   }
 }
+```
+---
+
+## ✍️ Author
+
+- [@JoshuaDavids](https://github.com/joshuacalebdavids)
+
+---
+
+## 📬 Support
+
+Questions or suggestions?  
+Reach me at **joshuadavids.jcd@gmail.com**
+
